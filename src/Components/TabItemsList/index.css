@@ -1,0 +1,38 @@
+.thambbail-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+.image {
+  height: 98px;
+  width: 98px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 575px) {
+  .image {
+    height: 70.4px;
+    width: 70.4px;
+  }
+}
+@media (width: 768px) {
+  .image {
+    height: 106.7px;
+    width: 106.7px;
+  }
+}
+@media (width: 992px) {
+  .image {
+    height: 141px;
+    width: 141px;
+  }
+}
+@media (width: 1200px) {
+  .image {
+    height: 172px;
+    width: 172px;
+  }
+}

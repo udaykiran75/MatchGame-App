@@ -1,0 +1,27 @@
+.tab-text {
+  color: white;
+  font-family: Roboto;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+  padding-bottom: 4px;
+}
+@media (max-width: 575px) {
+  .tab-text {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .tab-text {
+    font-size: 30px;
+  }
+}
+.isActiveTab {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
